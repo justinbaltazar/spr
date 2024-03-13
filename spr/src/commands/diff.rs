@@ -456,7 +456,7 @@ async fn diff_impl(
                     "changes introduced through rebase".to_string()
                 } else {
                     format!(
-                        "changes to {} this commit is based on",
+                        "chore: changes to {} this commit is based on",
                         config.master_ref.branch_name()
                     )
                 },
